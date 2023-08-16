@@ -25,10 +25,13 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import nexa from "./company/nexa.png"
+import everyday from "./company/everyday.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import carrent from "./tours.png";
+import jobit from "./social.png";
+import tripguide from "./hotel.png";
+
 
 export {
   logo,
@@ -59,4 +62,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  nexa,
+  everyday,
+  // restaurant,
+  // natours,
+  // socialMedia,
 };

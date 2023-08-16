@@ -16,13 +16,15 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
+  nexa,
+  everyday,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+
 } from "../assets";
 
 export const navLinks = [
@@ -45,10 +47,7 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
+
   {
     title: "Backend Developer",
     icon: backend,
@@ -72,10 +71,7 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
@@ -96,77 +92,38 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  ,
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "RelationShip Manager",
+    company_name: "Maruti Suzuki Nexa",
+    icon: nexa,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "August 2021 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Act as the primary point of contact for Nexa customers, providing personalized assistance, addressing inquiries, and ensuring a positive ownership experience. Also, guide potential customers through the vehicle selection process, offering information and test drives to facilitate sales.",
+      "Handle customer concerns, facilitate timely resolution of issues related to vehicle maintenance, service, or sales, and ensure customer satisfaction through effective communication and support.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Frontend Developer",
+    company_name: "Eeco Technologies",
+    icon: everyday,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Oct 2021 - present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develop and implement responsive and visually engaging user interfaces using HTML, CSS, and JavaScript, collaborating closely with design and backend teams.",
+      "Ensure cross-browser compatibility, optimize website performance, and troubleshoot frontend issues to deliver seamless user experiences",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
 ];
 
 const testimonials = [
@@ -196,11 +153,13 @@ const testimonials = [
   },
 ];
 
+
+
 const projects = [
   {
-    name: "Car Rent",
+    name: "Hotel Billing",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      " Streamlined interface for easy navigation through item list, cart, and bill pages.  review orders, and print bills seamlessly.Elevate your hotel's billing process today.",
     tags: [
       {
         name: "react",
@@ -211,54 +170,62 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "node js",
         color: "pink-text-gradient",
+      },
+      {
+        name: "express js",
+        color: "red-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/fazilmm860/capstone-billing-Application-",
   },
   {
-    name: "Job IT",
+    name: "Natours Travel",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Natours-Travel: Seamlessly book your dream tours within our application, making your travel aspirations a reality.without any tension.",
     tags: [
       {
-        name: "react",
+        name: "html & Css",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Node js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "red-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/fazilmm860/Natours",
+  },
+  {
+    name: "Social media application",
+    description:
+      "Experience a communication with our groundbreaking social media application, designed to bring people closer in connected world.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mongo DB",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/fazilmm860/social-media-",
   },
 ];
 
