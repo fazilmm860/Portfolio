@@ -49,15 +49,19 @@ const services = [
   {
     title: "Resume",
     icon: web,
+    link:"https://drive.google.com/drive/u/2/folders/1s4_gsiehPM3j3bY9of6BUYpYCl2Vseow"
   },
 
   {
     title: "Github",
-    icon: github,
+    icon: mobile,
+    link:"https://github.com/fazilmm860"
   },
   {
     title: "Linkedin",
     icon: web,
+    link:"https://www.linkedin.com/in/mohamed-fazil-m-0b5a53243/"
+
   },
 ];
 
